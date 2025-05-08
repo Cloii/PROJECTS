@@ -1,1 +1,1 @@
-# projcetss
+# PROJECTS
