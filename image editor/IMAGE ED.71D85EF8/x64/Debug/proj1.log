@@ -1,0 +1,31 @@
+﻿  MainForm.cpp
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307: 'System::Drawing::Color System::Drawing::Color::FromArgb(int,int,int)': argument (1) converted from '_Tp' to 'int'. Missing 'L' encoding-prefix for character literal?
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307:         with
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307:         [
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307:             _Tp=uchar
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307:         ]
+  (compiling source file 'MainForm.cpp')
+  
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307: 'System::Drawing::Color System::Drawing::Color::FromArgb(int,int,int)': argument (2) converted from '_Tp' to 'int'. Missing 'L' encoding-prefix for character literal?
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307:         with
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307:         [
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307:             _Tp=uchar
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307:         ]
+  (compiling source file 'MainForm.cpp')
+  
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307: 'System::Drawing::Color System::Drawing::Color::FromArgb(int,int,int)': argument (3) converted from '_Tp' to 'int'. Missing 'L' encoding-prefix for character literal?
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307:         with
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307:         [
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307:             _Tp=uchar
+C:\Users\user\Desktop\code\proj1 - Copy\MainForm.h(1523,42): warning C5307:         ]
+  (compiling source file 'MainForm.cpp')
+  
+  Shapedetectionform.cpp
+  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
+  Generating Code...
+C:\opencv\build\include\opencv2\core\cuda.inl.hpp(113,1): warning C4793: 'cv::cuda::GpuMat::GpuMat': function compiled as native:
+C:\opencv\build\include\opencv2\core\cuda.inl.hpp(113,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\opencv\build\include\opencv2\core\cuda.inl.hpp(511,1): warning C4793: 'cv::cuda::HostMem::HostMem': function compiled as native:
+C:\opencv\build\include\opencv2\core\cuda.inl.hpp(511,1): warning C4793: 	Found an intrinsic not supported in managed code
+  MainForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  proj1.vcxproj -> C:\Users\user\Desktop\code\proj1 - Copy\x64\Debug\IMAGE EDITOR- DULALAS.exe
