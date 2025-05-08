@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Homepage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .navbar {
+            background: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+        .hero {
+            background-image: url('https://imageio.forbes.com/specials-images/imageserve/65280003a36cd6aea36f399a/Maldives-hotel-beach-resort-on-tropical-Island-with-aerial-drone-view/0x0.jpg?format=jpg&height=1406&width=2501');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin: 10px 0 0;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            margin: 20px 0;
+            font-size: 36px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .rooms, .about, .contact {
+            margin: 20px 0;
+        }
+
+        .room {
+            background: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .room img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .room h3 {
+            margin: 10px 0;
+            font-size: 24px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .room p {
+            margin: 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="Home.html">Home</a>
+    <a href="room_availability.php">Reservations</a>
+    <a href="login.php">Admin Login</a>
+</div>
+
+<div class="hero">
+    <div>
+        <h1>Welcome to Serenity Resort</h1>
+        <p>Your luxury escape awaits</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="about">
+        <h2>About Us</h2>
+        <p>At Serenity Resort, we offer an unparalleled experience with breathtaking views, luxurious accommodations, and exceptional service. Our goal is to provide a haven of relaxation and comfort, making your stay truly memorable.</p>
+        <p><em>"Luxury must be comfortable, otherwise it is not luxury." - Coco Chanel</em></p>
+    </div>
+
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please don't hesitate to reach out to our friendly staff.</p>
+        <p>Email: info@serenityresort.com | Phone: +123 456 7890</p>
+    </div>
+</div>
+
+</body>
+</html>

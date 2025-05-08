@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Insert Guest Page</title>
+</head>
+  
+<body>
+    <center>
+ <?php
+  $host = "localhost";
+        $username  = "root";
+        $passwd = "";
+        $dbname = "reservation";
+
+
+      $con = mysqli_connect($host, $username, $passwd, $dbname);
+
+
+   if($con){
+      print("Connection Established Successfully");
+   }else{
+      print("Connection Failed ");
+   }    
+             
+        	$name      =    $_REQUEST['name'];
+        	$address   =   $_REQUEST['address'];
+		$contact   =   $_REQUEST['contact'];
+		$e-mail =   $_REQUEST['E-MAIL'];
+		$gender    =   $_REQUEST['gender'];
+				
+        $sql = "INSERT INTO GUEST  VALUES ('$name','$address','$contact','$e-mail','$gender')";
+          
+        if(mysqli_query($con, $sql))
+         {
+            echo "<h3>data stored in a database successfully." ;
+              
+               
+          } 
+		else
+             {
+                echo "CONNECTION ERROR:" 
+                . mysqli_error($con);
+             }
+          
+        // Close connection
+        mysqli_close($con);
+        ?>
+    </center>
+</body>
+  
+</html>

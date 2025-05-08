@@ -1,0 +1,29 @@
+!DOCTYPE html>
+<head>
+<title>INSERT GUEST</title>
+</head>
+
+
+<body>
+ <h1>GUEST DATA ENTRY FORM </h1>
+<div class = "container">
+	<div class = "row">
+		<form action="insert.php" method="POST" enctype="multipart/form-data">
+			<label for = "name">guest name: </label>
+			<input type = "text" id = "name" name = "name"><br>
+			
+			<label for = "address">address: </label>
+			<input type = "text" id = "address" name = "address"><br>
+			
+			<label for = "contact">contact num.: </label>
+			<input type = "text" id = "contact" name = "contact"><br>
+			
+			<label for = "messenger">messenger account</label>
+			<input type = "text" id = "messenger" name = "messenger"><br>
+			
+			<label for = "gender">gender </label>
+			<input type = "text" id = "gender" name = "gender"><br>
+			
+			
+			<input type="submit" name="submit"><br><br>
+		</form>
