@@ -1,0 +1,61 @@
+header h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #2b6cb0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-section {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-table th, .history-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.history-table th {
+    background: linear-gradient(135deg, #2b6cb0, #4c8bf5);
+    color: #fff;
+    font-weight: 600;
+}
+
+.history-table tr:hover {
+    background: #f7fafc;
+}
+
+.status.borrowed {
+    color: #e53e3e;
+    background: #fff5f5;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.status.returned {
+    color: #38a169;
+    background: #e6fffa;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.no-data {
+    text-align: center;
+    padding: 40px;
+    color: #718096;
+}
