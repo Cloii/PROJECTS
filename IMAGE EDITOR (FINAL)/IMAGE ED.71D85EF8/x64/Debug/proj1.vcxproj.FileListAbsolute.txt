@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\code\proj1 - Copy\IMAGE ED.71D85EF8\x64\Debug\proj1.vcxproj.AssemblyReference.cache
+C:\Users\user\Desktop\code\proj1 - Copy\IMAGE ED.71D85EF8\x64\Debug\proj1.MainForm.resources
+C:\Users\user\Desktop\code\proj1 - Copy\IMAGE ED.71D85EF8\x64\Debug\proj1.Shapedetectionform.resources
+C:\Users\user\Desktop\code\proj1 - Copy\IMAGE ED.71D85EF8\x64\Debug\proj1.vcxproj.GenerateResource.cache
+C:\Users\user\Desktop\code\image editor\IMAGE ED.71D85EF8\x64\Debug\proj1.vcxproj.AssemblyReference.cache
+C:\Users\user\Desktop\code\image editor\IMAGE ED.71D85EF8\x64\Debug\proj1.MainForm.resources
+C:\Users\user\Desktop\code\image editor\IMAGE ED.71D85EF8\x64\Debug\proj1.Shapedetectionform.resources
+C:\Users\user\Desktop\code\image editor\IMAGE ED.71D85EF8\x64\Debug\proj1.vcxproj.GenerateResource.cache
